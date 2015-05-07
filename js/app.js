@@ -1,8 +1,9 @@
+$(document).ready(function() {
 
-$('input[name="firstname"]).val()
+	$('#add-button').click(function(){
+    	var userInput = $("#new-item").val();
+		console.log("log message" , userInput);
+	});
 
-
-$('ul').on('click', 'li', function(event){
-  // fires when any LIs are clicked on
-  // including LIs that aren't on the page when it is initially loaded
 });
+
