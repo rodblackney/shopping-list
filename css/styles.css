@@ -2,51 +2,40 @@
 
 body {
 	background-color: black;
-	color: white;
+    color: white;
 }
-
 
 .wrapper {
 	text-align: center;
 
 }
 
-
-.header {
-	height: 80px;
-	background-color: white;
-	border-bottom: 1px solid red;
-}
-
-
 .shopping-list ul, li {
 	list-style-type: none;
 	padding-bottom: 20px;
+    text-align: left;
 }
 
 
 #add-button {
-  width: 9.688rem;
+    width: 9.688rem;
     background-color: green;
     border-color: #f15a29;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
-    color: white;
     font-size: 1.125rem;
 }
 
 
 #clear-button {
-	  width: 9.688rem;
+	width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
-    color: white;
     font-size: 1.125rem;
 }
-
