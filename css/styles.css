@@ -1,21 +1,24 @@
 /* styles */
 
 body {
-	background-color: black;
+    background-color: black;
     color: white;
 }
 
 .wrapper {
-	text-align: center;
+    text-align: center;
 
 }
 
 .shopping-list ul, li {
-	list-style-type: none;
-	padding-bottom: 20px;
+    list-style-type: none;
+    padding-bottom: 20px;
     text-align: left;
 }
 
+input[type="text"] {
+    color: black;
+}
 
 #add-button {
     width: 9.688rem;
@@ -30,7 +33,7 @@ body {
 
 
 #clear-button {
-	width: 9.688rem;
+    width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
     text-shadow: none;
