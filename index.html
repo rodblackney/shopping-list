@@ -4,23 +4,24 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/styles.css">
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
-	<div class="wrapper">
-		<div class="shopping-list">
-		<h2>Shopping List</h2>
-	<form>
-	<input type="text" name="item" placeholder="Add a item to your shopping list">
-	<button>Add Item</button>
-			<hr>
-			<h2>Items Added</h2>
-			<ul>	
-				<li><input type="checkbox" id="item-1" /> <label for="item-1">Free Range Eggs</label></li>
-				<li><input type="checkbox" id="item-2" /> <label for="item-2">Freshly Baked Bread</label></li>
-				<li><input type="checkbox" id="item-3" /> <label for="item-3">Free range eggs</label></li>
-			</ul>
-		</form>
-	</div>
+
+<div class="container">
+  <h1>Shopping List</h1>
+  <input id="new-value" placeholder="Add an item to your shopping list" />
+  </br>
+  <div class="items-list">
+    <button id="add-item">Add Items</button>
+    <button id="clear-item">Clear Items</button>
+    <ul id="shopping-list"></ul>
+  </div>
+
 </div>
+
+
 </body>
 </html>

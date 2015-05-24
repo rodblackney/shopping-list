@@ -3,48 +3,223 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
-/* styles */
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  letter-spacing: -1px;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #F7F7F7;
+  margin-top: 50px;
+  color: #282C2D;
+  background-image: url("  http://subtlepatterns.com/patterns/restaurant_icons.png ");
+}
+
+.container {
+  width: 550px;
+  height: 100%;
+  background: white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 10px 80px 0;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+
+#new-value {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  text-align: center;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  border-bottom: 1px solid;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+#new-value {
+  margin: 0 auto;
+  height: 25px;
+  width: 350px;
+  margin-bottom: 20px;
+  color: #282C2D;
+}
+
+#add-item {
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+  background: #6CB5D9;
+  border: 0;
+  font-size: 90%;
+  width: 25%;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+#add-item:hover {
+  color: white;
+  background: #5496B7;
+  border: 0;
+}
+
+#clear-item {
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+  background: #C9C9A0;
+  border: 0;
+  font-size: 90%;
+  width: 25%;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+#clear-item:hover {
+  color: white;
+  background: #A9A977;
+  border: 0;
+}
